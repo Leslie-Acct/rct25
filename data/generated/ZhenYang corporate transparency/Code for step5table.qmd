@@ -1,0 +1,109 @@
+---
+title: "step5_analysis.qmd"
+format: 
+  pdf:
+    documentclass: article
+    include-in-header: preamble.tex
+execute:
+  warning: false
+  message: false
+---
+
+## Step5_analysis
+
+```{r}
+options(warn = -1)
+library(psych)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+```
+
+```{r}
+data <- readRDS("~/Desktop/second semester /research on transparency/rct25-main/data/generated/orbis_panel_berlin.rds")
+View(data)
+```
+
+```{r}
+# seriously skewed firm size
+hist(data$toas,
+     main = "Histogram of Total Assets",
+     xlab = "Total Assets",
+     ylab = "Frequency",
+     col = "lightgray",
+     border = "white") 
+
+hist(log(data$toas), 
+     main = "Histogram of Firm Size (log-transformed)",  
+     xlab = "Log(Total Assets)",                    
+     ylab = "Frequency",                                 
+     col = "lightgray",                                 
+     border = "white")  
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+# construct equity ratio and binary postcode variable and log transformed toas
+data$log_toas <- log(data$toas)
+data$EquityRatio <- data$shfd / data$toas
+data$postcode_13353 <- ifelse(data$postcode == 13353, 1, 0)
+```
+
+```{r}
+library(ggplot2)
+library(tidyr)
+quantile(data$EquityRatio, probs = c(0.01, 0.99), na.rm = TRUE)
+
+```
+
+```{r}
+# descriptive 
+library(psych)
+describe(data[, c("EquityRatio", "log_toas", "postcode_13353")])
+```
+
+```{r}
+library(datawizard)
+# Winsorize EquityRatio1 at 1% and 99%
+data$EquityRatio_wins <- winsorize(
+  data$EquityRatio,
+  threshold = 0.01,
+  method = "percentile")
+```
+
+```{r}
+#fixed time effect regression
+library(fixest)
+# log(toatl assets)
+model_toas <- feols(
+  log_toas ~ postcode_13353 | year,
+  data = data,
+  cluster = ~postcode_13353
+)
+#euity ratio comparison
+model_equity <- feols(
+  EquityRatio_wins ~ postcode_13353 | year ,
+  data = data,
+  cluster = ~postcode_13353
+)
+
+```
+
+```{r}
+library(modelsummary)
+modelsummary(
+  list("log(Total Assets)" = model_toas,
+       "Equity Ratio" = model_equity),
+  stars = TRUE,
+  statistic = "({std.error})", 
+  gof_omit = "AIC|BIC|Log.Lik|Adj.R2|FE", 
+  output = "latex",
+  title = "Comparison of Firms in 13353 vs. Berlin Population",
+  add_rows = tibble::tibble(
+    term = "Fixed Time Effects",
+    `log(Total Assets)` = "Year",
+    `Equity Ratio` = "Year"
+  )
+)
+```
