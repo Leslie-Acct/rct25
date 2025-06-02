@@ -104,6 +104,8 @@ modelsummary(
     term = "Fixed Time Effects",
     `log(Total Assets)` = "Year",
     `Equity Ratio` = "Year"
-  )
+  ) ,
+notes=c("This table presents a comparison between firms located in the 13353 postal code and the Berlin firm population（outside 13353）. Column (1) uses the logarithm of total assets (log-transformed) as the dependent variable, while Column (2) uses the equity ratio. All regressions include year fixed effects and control for time-specific variations. Robust standard errors clustered by postcode are reported in parentheses. 
+"
 )
 ```
