@@ -8,7 +8,7 @@ summary: This blog analyzes how South Korea’s National Intelligence Service co
 
 ## 1.Introduction
 
-In 2012 South Korea, National manipulate presidential election by operating fake contents on tweeter. Agents of the National Intelligence Service posted their tweeter to influence public opinion in favor of Geun-hye Park. This caimpaign was profesionally organized. Agents were native and well-knowledged pepeople, and adjusted their post daily to the changing election conditions. The public was fooled and only few suspected.
+In 2012, South Korea National manipulated presidential election by operating fake content on Tittwer. Agents of the National Intelligence Service posted tweets to influence public opinion in favor of Geun-hye Park. This campaign was professionally organized. The agents were native speakers and knowledgeable individuals who adjusted their posts daily to respond to changing election conditions. The public was fooled, and only a few suspected what was happening.
 
 ## 2.Behavior Pattern of South Korean Disinformation Campaign
 
@@ -20,11 +20,11 @@ Figure 1 illustrates the temporal behavior of NIS accounts compared to regular u
 ![Figure 1: Timing pattern](Figure1_Timing_Pattern.png)
 
 
--	From panel (a)we can clearly observe that NIS accounts were more active during regular working hours, while their activity dropped significantly after office hours. In contrast, regular users were more active after working hours.
+-	From panel (a), we can clearly observe that NIS accounts were more active during regular working hours, while their activity dropped significantly after office hours. In contrast, regular users were more active after working hours.
 
--	From panel (b) shows NIS activity drops sharply on Saturdays and Sundays, while regular users actually become more active.
+-	Panel (b) shows NIS activity drops sharply on Saturdays and Sundays, while regular users actually become more active.
 
--	From panel ( c ) suggests the NIS tweet suddenly stop their tweeting after they were discovered on December 11.
+-	Panel ( c ) suggests the NIS tweet suddenly stop their tweeting after they were discovered on December 11.
 
 
 > By using the office-hour activity pattern, the researchers were able to identify and validate 824 additional suspicious NIS accounts.
@@ -36,13 +36,13 @@ Figure 1 illustrates the temporal behavior of NIS accounts compared to regular u
 
 #### 2.2.1 Retweeting Within the Network
 
-Retweeting means one account retweet within same group or agent. Retweeting is up to 48% in all NIS accounts. The density and darkness of connections in the retweet network highlight this varied pattern—some agents showed strong internal coordination, while others retweeted inconsistently.
+Retweeting refers to one account retweeting within the same group or agent.Up to 48% of retweets were made within the NIS network. The density and darkness of connections in the retweet network highlight this varied pattern—some agents showed strong internal coordination, while others retweeted inconsistently.
 
 ![Figure 2: Retweet Pattern](Figure2_Retweet_Pattern.png)
 
 
 
-From panel (a), the larger nodes represents the accountreceived more retweets  from other NIS accounts; the darker it appears, the higher the percentage of its retweets within the NIS network. This structure reveals targeted amplification rather than organic engagement.
+In panel (a), the larger nodes represents accounts that received more retweets from other NIS accounts; the darker it appears, the higher the percentage of its retweets within the NIS network. This structure reveals targeted amplification rather than organic engagement.
 
 From panel (b), we can see more clear srtucture of the retweeting strategy. From clusters(highlighted in yellow), the agents 7, 15, 16 and 19 created one or two central accounts, retweeting within themselves. While other agents show a coordinated strategy, retweeting each other.
 
@@ -52,15 +52,16 @@ From panel (b), we can see more clear srtucture of the retweeting strategy. From
 
 
 
-Co-tweeting refers to multiple accounts posting identical original content within short time windows. The researchers found that 85% of these co-tweets appeared within one minute of each other, and 99% within one work day or  10 hours —suggesting highly disciplined timing. Nearly 45% of all original tweets (in research data) were non-unique.
+Co-tweeting refers to multiple accounts posting identical original content within short time windows. Researchers found that 85% of these co-tweets occurred within one minute, and 99% within a typical 10-hour workday—indicating highly disciplined timing.
 
 
 
 ![ Figure 3:Co-tweeting Network](Figure3_Co-tweeting.png)
 
-Figure 3 shows the co-tweeting network of NIS accounts. Each node represents an account, and edges connect accounts that posted the same message within a short time window. Instead of forming one large connected network, the accounts are grouped into dense, isolated “pods,” indicating that agents operated independently and coordinated within small assigned clusters.
+Figure 3 shows the co-tweeting network of NIS accounts. Each node represents an account, and edges connect accounts that posted the same message within a short time window. Rather than forming one large connected network, the accounts are divided into small, tightly knit clusters. This suggests that agents operated independently, each managing their own set of accounts.
 
-The two dense clusters—labeled (1) and (2)—show groups of accounts assigned to agents 4 and 29, respectively. Each cluster reveals accounts acting like a copy-paste unit, posting identical tweets in parallel. These nodes are tightly connected, with little interaction across clusters, forming isolated “pods.”
+The two dense clusters—labeled (1) and (2)—show groups of accounts assigned to agents 4 and 29, respectively. Each cluster reveals accounts acting like a copy-paste unit, posting identical tweets in parallel. These clusters are internally dense but disconnected from each other, reinforcing the decentralized structure of the campaign.
+
 
 >This copy-paste pattern became a powerful detection strategy: accounts that co-tweeted repeatedly and tightly clustered around known agents were flagged as highly suspicious. 
 
@@ -69,7 +70,7 @@ The two dense clusters—labeled (1) and (2)—show groups of accounts assigned 
 
 #### 2.2.3 Co-Retweeting: Coordinated Sharing of the Same Content
 
-Co-retweeting occurs when multiple accounts retweet the same tweet within a short time window. In this campaign, only 17% of retweets were unique—most were repeated. While more temporally spread than co-tweets, 20% of co-retweets still happened within one minute, and 99% within a week, indicating sustained, low-visibility coordination.
+Co-retweeting occurs when multiple accounts retweet the same tweet within a short time window. In this campaign, only 17% of retweets were unique—most were repeated. Although co-retweets were more temporally dispersed than co-tweets, 20% occurred within one minute and 99% within a week—suggesting sustained, low-profile coordination.
 
 >Though 440 co-retweeters were flagged as bot-like after manual review, co-retweeting patterns helped narrow down potential campaign accounts.
 
