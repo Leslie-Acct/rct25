@@ -15,7 +15,7 @@ In 2012 South Korea, National manipulate presidential election by operating fake
 ### 2.1 Timing Pattern
 
 Figure 1 illustrates the temporal behavior of NIS accounts compared to regular users. The differences reveal a structured, workday schedule pattern—suggesting the activity was carried out by agents operating on assigned schedules rather than ordinary social media users.
-![Figure 1: Timing pattern](Figure_Timing_Pattern.png)
+![Figure 1: Timing pattern](materials/Figure_Timing_Pattern.png)
 
 -	From panel (a)we can clearly observe that NIS accounts were more active during regular working hours, while their activity dropped significantly after office hours. In contrast, regular users were more active after working hours.
 
