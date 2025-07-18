@@ -52,20 +52,15 @@ From panel (b), we can see more clear srtucture of the retweeting strategy. From
 
 
 
-
 Co-tweeting refers to multiple accounts posting identical original content within short time windows. The researchers found that 85% of these co-tweets appeared within one minute of each other, and 99% within one work day or  10 hours —suggesting highly disciplined timing. Nearly 45% of all original tweets (in research data) were non-unique.
 
 
 
 ![ Figure 3:Co-tweeting Network](Figure3_Co-tweeting.png)
 
+Figure 3 shows the co-tweeting network of NIS accounts. Each node represents an account, and edges connect accounts that posted the same message within a short time window. Instead of forming one large connected network, the accounts are grouped into dense, isolated “pods,” indicating that agents operated independently and coordinated within small assigned clusters.
 
-Figure 3 reveal a mechanical posting  behavior: many NIS accounts posted exactly the same message within seconds. 
-
-
-What’s more, agents appeared to operate independently. They coordinated within small clusters assigned to individual agents, rather than as a single large team. 
-Figure 3 shows dense, isolated co-tweeting “pods” instead of one massive connected network. It’s the digital equivalent of a factory line: efficient, segmented, and repetitive.
-
+The two dense clusters—labeled (1) and (2)—show groups of accounts assigned to agents 4 and 29, respectively. Each cluster reveals accounts acting like a copy-paste unit, posting identical tweets in parallel. These nodes are tightly connected, with little interaction across clusters, forming isolated “pods.”
 
 >This copy-paste pattern became a powerful detection strategy: accounts that co-tweeted repeatedly and tightly clustered around known agents were flagged as highly suspicious. 
 
