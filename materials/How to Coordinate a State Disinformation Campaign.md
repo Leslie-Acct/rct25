@@ -69,21 +69,11 @@ The two dense clusters—labeled (1) and (2)—show groups of accounts assigned 
 
 #### 2.2.3 Co-Retweeting: Coordinated Sharing of the Same Content
 
-Co-retweeting occurs when multiple accounts retweet the same tweet within a short time window. Only 17% of retweets were unique—most were repeated. While more spread than co-tweets, 20% of co-retweets still happened within one minute, and 99% within a week.
-
-![Figure 4:Co-retweeting Network](Figure4_Co-Retweeting_Pattern.png)
-
-As shown in Figure 4, after applying the same tight time window used for co-tweets nearly, all NIS agents and suspicious accounts engaged in co-retweeting, further reinforcing the idea of disciplined, large-scale coordination.
+Co-retweeting occurs when multiple accounts retweet the same tweet within a short time window. In this campaign, only 17% of retweets were unique—most were repeated. While more temporally spread than co-tweets, 20% of co-retweets still happened within one minute, and 99% within a week, indicating sustained, low-visibility coordination.
 
 >Though 440 co-retweeters were flagged as bot-like after manual review, co-retweeting patterns helped narrow down potential campaign accounts.
 
 
-### 2.3 Account creation Pattern
-
-Suspicious accounts were created at the same time intervals as known NIS accounts.
-From account age, Suspects are generally younger than regular users, indicating potential batch creation.
-
-Both suspect and NIS accounts have user IDs clustered in batches, indicating coordinated creation (unlike the smoother distribution of regular users).
 
 
 # 3. Misaligned Agents, Missed Impact
@@ -95,7 +85,7 @@ The South Korean disinformation campaign was highly coordinated but overly rigid
 ## 3.2 A Similar Structure in Russia’s IRA Campaign
 This kind of misalignment between principal and agent is not unique. As Josephine Lukito (2019) shows, the Russian Internet Research Agency exhibited a similar dynamic: agents received centrally assigned tasks every morning, were required to meet daily quotas, and were evaluated based on engagement metrics. However, the assembly-line structure left little room for strategic creativity, leading to persistent goal misalignment.
 
-## 3.3  Memes as a strategy
+## 3.3  Memes as a Strategy
 Mihăilescu (2024) shows how memes serve as a more interactive, efficient, and emotionally persuasive form of political communication. By drawing on shared cultural references and humor, they engage audiences emotionally, foster participation, and amplify political narratives.
 
 ##  3.4 India’s Hybrid Model
@@ -104,11 +94,11 @@ The 2019 Indian general election offers offers a more dynamic, hybrid campaign c
 
 ## Reference:
 
-[Lukito, J. (2019). Coordinating a Multi-Platform Disinformation Campaign: Internet Research Agency Activity on Three U.S. Social Media Platforms, 2015 to 2017. Political Communication, 37(2), 238–255.](https://doi.org/10.1080/10584609.2019.1661889)
+[Keller, F. B., Schoch, D., Stier, S., & Yang, J. (2019). Political Astroturfing on Twitter: How to Coordinate a Disinformation Campaign. Political Communication, 37(2), 256–280.](https://doi.org/10.1080/10584609.2019.1661888)
 
-[Maurice Jakesch, Kiran Garimella, Dean Eckles, and Mor Naaman. 2021. Trend Alert: A Cross-Platform Organization Manipulated Twitter Trends in the Indian General Election. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 379 (October 2021), 19 pages.]( https://doi.org/10.1145/3479523)
+[Lukito, J. (2019). Coordinating a Multi-Platform Disinformation Campaign: Internet Research Agency Activity on Three U.S. Social Media Platforms, 2015 to 2017. Political Communication, 37(2), 238–255.](https://doi.org/10.1080/10584609.2019.1661889)
 
 [Mihăilescu, M.-G. (2024). Never Mess With the “Memers”: How Meme Creators Are Redefining Contemporary Politics. Social Media + Society, 10(4).]( https://doi.org/10.1177/20563051241296256 (Original work published 2024))
 
-[Keller, F. B., Schoch, D., Stier, S., & Yang, J. (2019). Political Astroturfing on Twitter: How to Coordinate a Disinformation Campaign. Political Communication, 37(2), 256–280.](https://doi.org/10.1080/10584609.2019.1661888)
+[Maurice Jakesch, Kiran Garimella, Dean Eckles, and Mor Naaman. 2021. Trend Alert: A Cross-Platform Organization Manipulated Twitter Trends in the Indian General Election. Proc. ACM Hum.-Comput. Interact. 5, CSCW2, Article 379 (October 2021), 19 pages.]( https://doi.org/10.1145/3479523)
 
