@@ -15,7 +15,7 @@ In 2012 South Korea, National manipulate presidential election by operating fake
 ### 2.1 Timing Pattern
 
 Figure 1 illustrates the temporal behavior of NIS accounts compared to regular users. The differences reveal a structured, workday schedule pattern—suggesting the activity was carried out by agents operating on assigned schedules rather than ordinary social media users.
-![Figure 1: Timing pattern](Figure1 Timing Pattern.png)
+![Figure 1: Timing pattern](Figure_Timing_Pattern.png)
 
 -	From panel (a)we can clearly observe that NIS accounts were more active during regular working hours, while their activity dropped significantly after office hours. In contrast, regular users were more active after working hours.
 
@@ -35,7 +35,7 @@ Figure 1 illustrates the temporal behavior of NIS accounts compared to regular u
 
 Retweeting means one account retweet within same group or agent. Retweeting is up to 48% in all NIS accounts. The density and darkness of connections in the retweet network highlight this varied pattern—some agents showed strong internal coordination, while others retweeted inconsistently.
 
-![Figure 2: Retweet Pattern](Figure2 Retweet Pattern.png)
+![Figure 2: Retweet Pattern](Figure2_Retweet_Pattern.png)
 
 
 
@@ -54,7 +54,7 @@ Co-tweeting refers to multiple accounts posting identical original content withi
 
 
 
-![ Figure 3:Co-tweeting Network](Figure3 Co-tweeting.png)
+![ Figure 3:Co-tweeting Network](Figure3_Co-tweeting.png)
 
 
 Figure 3 reveal a mechanical posting  behavior: many NIS accounts posted exactly the same message within seconds. 
@@ -73,7 +73,7 @@ Figure 3 shows dense, isolated co-tweeting “pods” instead of one massive con
 
 Co-retweeting occurs when multiple accounts retweet the same tweet within a short time window. Only 17% of retweets were unique—most were repeated. While more spread than co-tweets, 20% of co-retweets still happened within one minute, and 99% within a week.
 
-![Figure 4:Co-retweeting Network](Figure4 Co-Retweeting Pattern.png)
+![Figure 4:Co-retweeting Network](Figure4_Co-Retweeting_Pattern.png)
 
 As shown in Figure 4, after applying the same tight time window used for co-tweets nearly, all NIS agents and suspicious accounts engaged in co-retweeting, further reinforcing the idea of disciplined, large-scale coordination.
 
