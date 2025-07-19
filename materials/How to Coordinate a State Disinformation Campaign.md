@@ -8,7 +8,7 @@ summary: This blog analyzes how South Korea’s National Intelligence Service co
 
 ## 1.Introduction
 
-In 2012, South Korea National manipulated presidential election by operating fake content on Tittwer. Agents of the National Intelligence Service posted tweets to influence public opinion in favor of Geun-hye Park. This campaign was professionally organized. The agents were native speakers and knowledgeable individuals who adjusted their posts daily to respond to changing election conditions. The public was fooled, and only a few suspected what was happening.
+In 2012, South Korea’s National Intelligence Service Nmanipulated presidential election by operating fake content on Tittwer. Agents of the National Intelligence Service posted tweets to influence public opinion in favor of Geun-hye Park. This campaign was professionally organized. The agents were native speakers and knowledgeable individuals who adjusted their posts daily to respond to changing election conditions. The public was fooled, and only a few suspected what was happening.
 
 ## 2.Behavior Pattern of South Korean Disinformation Campaign
 
